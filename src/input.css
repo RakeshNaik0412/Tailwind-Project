@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.course{
+    width: 1000px;
+    height: 300px;
+    border-color: black 4px solid;
+    border-radius: 4px;
+}
+
+.main{
+    background-image: url(./build/img/mainpage.jpg);
+}
+
+.progress{
+    border-radius: 6px;
+    background-color: aqua;
+}
+
+.width{
+    width: 100vh;
+}
